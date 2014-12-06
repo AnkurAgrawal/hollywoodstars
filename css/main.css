@@ -7,6 +7,10 @@ header span#tagline{font-size:12pt;}
 header {width:994px;margin:auto;padding:5px;}
 footer {width:994px;margin:auto;padding:5px;}
 
-.ui-tabs{padding:0;border:0 !important;}
+.ui-tabs{padding:0;border:0 !important;background-color:transparent;}
 .ui-tabs .ui-tabs-panel{padding:0;border:none !important;}
 .ui-tabs-anchor{font-size:12pt;}
+.ui-tabs .ui-tabs-nav{padding:0;background-color:transparent !important;background:none;border:0 !important;}
+.ui-tabs .ui-tabs-nav li{}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{background:none !important;}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{color:#aaa;}
