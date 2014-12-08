@@ -1,11 +1,17 @@
+*{font-style:'Droid Serif',Verdana,Arial,sans-serif;color:#fff;text-decoration:none;}
+html,body{margin:0;}
 body{background-color:black;}
-*{font-style:'Droid Serif',Verdana,Arial,sans-serif;color:#fff;text-decoration:none;line-height:1.42857143;}
 .red{color:#A00C0E;}
 .golden{color:#BF933C;}
 header span#tagline{font-size:12pt;}
 #viz {width:1004px;margin:auto;}
-header {width:994px;margin:auto;padding:5px;}
-footer {width:994px;margin:auto;padding:5px;}
+header {width:994px;margin:auto;padding:5px;z-index:10}
+footer {width:994px;margin:auto;padding:5px;z-index:10}
+
+.title span{font-size:1.6em}
+img.oscar{position:fixed;top:50%;z-index:2;margin-top:-407px}
+
+#viz iframe{border:none;height:889px;width:100%;z-index:10}
 
 .ui-tabs{padding:0;border:0 !important;background-color:transparent;}
 .ui-tabs .ui-tabs-panel{padding:0;border:none !important;}
